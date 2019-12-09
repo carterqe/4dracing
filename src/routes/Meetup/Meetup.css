@@ -1,0 +1,17 @@
+.meetups {
+  background-image: url('https://www.elsetge.cat/myimg/f/148-1485247_nissan-240sx-wallpapers-240sx-rocket-bunny.jpg');
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+html, #root {
+  height: 100vh;
+  width: 100vw;
+}
+
+.meetups-form {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}

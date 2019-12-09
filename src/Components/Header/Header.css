@@ -1,0 +1,133 @@
+* {
+  text-decoration: none;
+}
+
+header {
+  height: 100px;
+  background-color: transparent;
+  display: flex;
+  padding-top: .5%;
+  padding-left: .5%;
+  /* position: absolute; */
+  position: fixed;
+  -webkit-box-shadow: 16px 10px 33px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 16px 10px 33px 0px rgba(0,0,0,0.75);
+  box-shadow: 16px 10px 33px 0px rgba(0,0,0,0.75);
+  width: 100%; 
+  justify-content: space-between;
+  /* backdrop-filter: blur(8px) */
+}
+
+.branding {
+  display: inline-block;
+  display: flex;
+}
+
+.header-logo {
+  max-height: 90px;
+  display: inline-block;
+}
+
+.header-title {
+  display: inline-block;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: lighter;
+  color: #333333;
+}
+
+.fas {
+  font-size: 50px;
+  display: flex;
+  display: inline-block;
+}
+
+.fas:hover {
+  cursor: pointer;
+}
+
+.controllers {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  align-items: center;
+  padding-bottom: 1%;
+  box-sizing: border-box;
+  padding-right: 3%;
+}
+
+.sidebar-toggle {
+  left: 10%;
+  margin-top: 15px;
+  position: relative;
+  display: flex;
+  display: inline-block;
+}
+
+.profile-pic {
+  max-width: 20%;
+  max-height: 10%;
+  height: 3%;
+  width: 20%;
+  position: relative;
+  display: flex;
+  display: inline-block;
+}
+
+.profile-pic-link {
+
+}
+
+.sidebar-toggle button {
+  background: none;
+  border: none;
+  display: flex;
+
+}
+
+/* .sidebar-toggle:hover {
+  cursor: pointer;
+} */
+
+.sidebar{
+  width: 400px;
+  height: 88%;
+  position: fixed;
+  right: -400px;
+  top: 110px;
+  background: transparent;
+  -webkit-box-shadow: -16px 10px 36px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -16px 10px 36px 0px rgba(0,0,0,0.75);
+  box-shadow: -16px 10px 36px 0px rgba(0,0,0,0.75);
+  backdrop-filter: blur(6px);
+  transition: right 0.2s ease-in-out;
+}
+
+.sidebar.open{
+  right: 0;
+}
+
+.header-tag {
+  max-width: 50%;
+  width: 30%;
+  max-height: 100%;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: .5%;
+}
+
+.link-button {
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: Impact, fantasy;
+  font-size: 30px;
+  text-shadow: 7px 6px 6px #777777;
+  color: #404040;
+}
+
+.link-button:hover {
+  cursor: pointer;
+}
+
+
