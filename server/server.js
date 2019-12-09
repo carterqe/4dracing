@@ -27,8 +27,10 @@ app.use(
 
 const path = require('path'); // Usually moved to the start of file
 
-app.get('*', (req, res)=>{
-    res.sendFile(path.join(__dirname, '../build/index.html'));
+app.get('*', (req, res)=> {
+  const path = path.join(__dirname, '../build/index.html');
+  console.log('path', path);
+  res.sendFile(path);
 });
 
 app.post('/auth/register', authCtrl.register)
